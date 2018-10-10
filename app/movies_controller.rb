@@ -29,8 +29,8 @@ def can_be_created_in_a_block(arg = {title: "Home Alone", release_date: 1990})
   end
 end
 
-def can_get_the_first_item_in_the_database
-  Movie.first.title
+def can_get_the_first_item_in_the_database(arg = {title: "Movie_0"})
+  Movie.first.arg[:title}]
 end
 
 def can_get_the_last_item_in_the_database
